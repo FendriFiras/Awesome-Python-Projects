@@ -4,8 +4,8 @@ Created on Mon Jan 4, 20:42:56, 2021
 
 @author: Abhishek Gaurav
 """
-
-import pickle
+from sklearn.externals import joblib
+import joblib
 import streamlit as st 
 
 pickle_in = open("classifier.pkl","rb")
